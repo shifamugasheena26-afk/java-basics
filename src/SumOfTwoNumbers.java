@@ -4,13 +4,13 @@ public class SumOfTwoNumbers {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter First Number :");
-        int a = sc.nextInt();
+        int num1 = sc.nextInt();
 
         System.out.println("Enter Second Number :");
-        int b = sc.nextInt();
+        int num2 = sc.nextInt();
 
         int sum=0;
-        sum=a + b;
+        sum=num1 + num2;
 
         System.out.println("Sum : " + sum);
     }
